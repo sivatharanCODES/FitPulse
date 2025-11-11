@@ -13,10 +13,10 @@ Default : 1
 -- 02 COLORS
 
 -Primary : #0171FF
--Tints : 
--Shades : 
+-Tints :  #0166e6
+-Shades : #e6f1ff
 -Accents : 
--Greys :  #555
+-Greys :  #555 #333
 
 -- 03 IMAGES
 -- 04 ICONS
@@ -37,9 +37,101 @@ Default : 1
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   color: #555;
   font-weight: 400;
+}
+.section-hero {
+  background-color: #e6f1ff;
+  padding: 9.6rem 0;
+}
+.hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  margin: 0 auto;
+  align-items: center;
+}
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 1.6rem 3.2rem;
+  display: inline-block;
+  border-radius: 9px;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+.btn--full:link,
+.btn--full:visited {
+  background-color: #0171ff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #0166e6;
+}
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #e6f1ff;
+  /* border: 3px solid #fff; */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+.hero-img {
+  width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem;
+}
+
+.users {
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+.user-imgs {
+  display: flex;
+}
+.user-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-left: -1.6rem;
+  border: 3px solid #e6f1ff;
+}
+.user-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.user-text span {
+  color: #0166e6;
+  font-weight: 700;
 }
