@@ -186,3 +186,69 @@
 .step-img {
   width: 35%;
 }
+
+/* *********************** */
+/*  Workouts SECTION */
+/* *********************** */
+.section-Workouts {
+  padding: 9.6rem 0;
+}
+.workout {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+}
+.workout-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+.workout-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+.tag--fullbody {
+  background-color: #51cf66;
+}
+.tag--flexibility {
+  background-color: #94d82d;
+}
+.tag--recovery {
+  background-color: #fcc419;
+}
+.workout-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.workout-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.workout-attribute {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+}
+.workout-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #0166e6;
+}
+.workout-img {
+  width: 100%;
+}
