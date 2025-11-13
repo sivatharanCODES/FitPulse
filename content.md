@@ -115,10 +115,10 @@ Customer testimonials
 
 [Photos of customers included]
 
-Affordable, motivating, and super effective workouts, without having to plan anything! It feels like having a personal trainer in my pocket. (Dave Bryson)
-The AI trainer is amazing — it adjusts my sessions automatically based on my recovery and energy. I’ve never been so consistent! (Ben Hadley)
+Affordable, motivating, and super effective workouts, without having to plan anything! It feels like having a personal trainer in my pocket. (Aaron Williams)
+The AI trainer is amazing — it adjusts my sessions automatically based on my recovery and energy. I’ve never been so consistent! (Grace Lewis)
 FitPulse changed my life! I’m running a business, and I finally stay in shape without wasting time at the gym. (Steve Miller)
-I subscribed for my whole family, and it’s so fun to train together! Everything is personalized, and the app is super easy to use. (Hannah Smith)
+I subscribed for my whole family, and it’s so fun to train together! Everything is personalized, and the app is super easy to use. (Nathan Yoo)
 
 Section with logos of featured publications [see images]
 Contact information
