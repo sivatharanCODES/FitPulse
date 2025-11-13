@@ -23,7 +23,7 @@ Default : 1
 -Tints :  #0166e6
 -Shades : #e6f1ff #b3d4ff
 -Accents : 
--Greys :  #555 #333
+-Greys :  #555 #333 #6f6f6f
 
 -- 03 IMAGES
 -- 04 ICONS
@@ -68,7 +68,7 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
-  padding: 0 3.2rem;
+  /* padding: 0 3.2rem; */
 }
 
 .grid--2-cols {
