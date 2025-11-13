@@ -19,8 +19,8 @@ Default : 1
 0.75px
 -- 02 COLORS
 
--Primary : #0171FF
--Tints :  #0166e6 #4d9cff
+-Primary : #0171FF 
+-Tints :  #0166e6 #4d9cff #00224c
 -Shades : #e6f1ff #b3d4ff
 -Accents : 
 -Greys :  #555 #333 #6f6f6f
@@ -127,7 +127,7 @@ body {
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
-
+.btn,
 .btn:link,
 .btn:visited {
   font-size: 2rem;
@@ -138,6 +138,9 @@ body {
   border-radius: 9px;
   text-decoration: none;
   transition: 0.3s all;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 .btn--full:link,
 .btn--full:visited {
@@ -159,7 +162,16 @@ body {
   /* border: 3px solid #fff; */
   box-shadow: inset 0 0 0 3px #fff;
 }
-
+.btn--form {
+  background-color: #00224c;
+  color: #e6f1ff;
+  align-self: end;
+  padding: 1.2rem;
+}
+.btn--form:hover {
+  background-color: #fff;
+  color: #333;
+}
 .link:link,
 .link:visited {
   display: inline-block;
@@ -193,7 +205,12 @@ body {
   height: 3rem;
   color: #0171ff;
 }
-
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #0166e6;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem hsla(214, 100%, 50%, 0.5);
+}
 /* HEALPER/SETTING CLASSES */
 .center-text {
   text-align: center;
