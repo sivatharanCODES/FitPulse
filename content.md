@@ -129,16 +129,18 @@ Email: hello@fitpulse.com
 
 Social profiles: Instagram, Facebook, Twitter [links not available yet]
 
-Additional links [links not available yet]
+## Additional links [links not available yet]
 
 Create account
 Sign in
 iOS app
 Android app
+
 About FitPulse
 For Business
 Trainer partners
 Careers
+
 Workout directory
 Help center
 Privacy & terms

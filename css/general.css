@@ -23,7 +23,7 @@ Default : 1
 -Tints :  #0166e6 #4d9cff #00224c
 -Shades : #e6f1ff #b3d4ff
 -Accents : 
--Greys :  #555 #333 #6f6f6f
+-Greys :  #555 #333 #6f6f6f #767676
 
 -- 03 IMAGES
 -- 04 ICONS
@@ -87,6 +87,9 @@ body {
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 .grid--center-v {
   align-items: center;
