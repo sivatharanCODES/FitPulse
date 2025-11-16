@@ -22,6 +22,8 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <!-- smooth scroll -->
+     <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
     <!-- Js -->
     <script src="js/script.js" defer></script>
     <title>FitPulse</title>
@@ -34,11 +36,11 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Workouts</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#workout">Workouts</a></li>
+          <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
         </ul>
       </nav>
       <button class="btn-mobile-nav">
@@ -58,10 +60,10 @@
               in shape again. Tailored to your personal goals and lifestyle. We
               have completed 50,000+ personalized workouts last year!
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >Train Smarter Now</a
             >
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#cta" class="btn btn--outline">Learn more &darr;</a>
             <div class="users">
               <div class="user-imgs">
                 <img src="img/customers/customer-1.jpg" alt="User Photo" />
@@ -97,7 +99,7 @@
           </div>
         </div>
       </section>
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
@@ -167,7 +169,7 @@
           </div>
         </div>
       </section>
-      <section class="section-Workouts">
+      <section class="section-Workouts" id="workout">
         <div class="container center-text">
           <span class="subheading">Workouts</span>
           <h2 class="heading-secondary">
@@ -279,7 +281,7 @@
           <a href="#" class="link">See all workouts &rarr;</a>
         </div>
       </section>
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
           <span class="subheading">Testimonial</span>
           <h2 class="heading-secondary">Hear from our community</h2>
@@ -379,7 +381,7 @@
           </figure>
         </div>
       </section>
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -471,7 +473,7 @@
           </div>
         </div>
       </section>
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
